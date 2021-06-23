@@ -20,4 +20,7 @@ public interface UcenterMemberService extends IService<UcenterMember> {
 
     //会员注册
     void register(RegisterVo registerVo);
+
+    //根据微信id查询用户
+    UcenterMember getByOpenid(String openid);
 }
