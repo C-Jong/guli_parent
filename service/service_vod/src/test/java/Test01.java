@@ -14,7 +14,7 @@ public class Test01 {
             String accessKeySecret = ConstantPropertiesUtil.ACCESS_KEY_SECRET;
 
             //初始化
-            DefaultAcsClient client = AliyunVodSDKUtils.initVodClient("LTAI5tL8qjmmtG7ZW6Yzkntr", "VjrkBv9NIoT4mbhrqSisszNg1Jwi3G");
+            DefaultAcsClient client = AliyunVodSDKUtils.initVodClient("", "");
 
             //请求
             GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
